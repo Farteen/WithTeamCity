@@ -424,9 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WithTeamCity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.themepicker.WithTeamCity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WithTeamCity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.themepicker.WithTeamCity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +509,7 @@
 				C3788D9B1E2DF2FD007DD621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3788D9C1E2DF2FD007DD621 /* Build configuration list for PBXNativeTarget "WithTeamCityTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +518,7 @@
 				C3788D9E1E2DF2FD007DD621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3788D9F1E2DF2FD007DD621 /* Build configuration list for PBXNativeTarget "WithTeamCityUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +527,7 @@
 				C3788DA11E2DF2FD007DD621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
